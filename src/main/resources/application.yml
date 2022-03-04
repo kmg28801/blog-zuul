@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: blog-zuul
+
+server:
+  port: 10001
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:15001/eureka/
